@@ -78,7 +78,7 @@ const foo = decorate([decorator1, decorator2], () => "Hello");
 
 ### Function declarations
 
-And this is the most important. I propose to make a decorated function declaration behave as `let` definition.
+And this is the most important. I propose to make a decorated function declaration behave as `let` variable definition.
 
 ```js
 @decorator1 @decorator2 function foo() { return "Hello" }
