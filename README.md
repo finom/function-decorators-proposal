@@ -27,18 +27,18 @@ There are some noteworthy alternatives to decorators I'm going to mention shortl
 
 1. Wrappers (enhancers). This syntax is actually does the decorator's job but doesn't do it nicely. I would call it the only usable alternative to decorators by the time being.
 ```js
-const foo = decorator(function foo {});
+const foo = decorator(function foo() {});
 ```
 2. Pipeline operator.
 
 ```js
-const foo = (function foo {}) |> decorator;
+const foo = (function foo() {}) |> decorator;
 ```
 
 3. Via bind operator (taken from Ingvar Stepanyan's article).
 
 ```js
-const foo = (function foo {})::decorator();
+const foo = (function foo() {})::decorator();
 ```
 
 The wrapper looks better than two other cases because it makes possible to see what does decorate the function before it was declared.
