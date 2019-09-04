@@ -85,7 +85,7 @@ And this is the most important. I propose to make a decorated function declarati
 
 // Will become:
 
-let foo = decorate([decorator1, decorator2], function foo() { return "Hello" });
+let foo = decorate([decorator1, decorator2], function foo() { return "Hello" }); // no hoisting!
 ```
 
 ### Async functions and generator functions
