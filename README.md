@@ -1,6 +1,6 @@
 # function-decorators-proposal
 
-That's my humble attempt to move the topic of function decorators from the dead point. I know, it's discussed many times but IMO [current implementation of decorators](https://github.com/tc39/proposal-decorators) cover only a tiny amount of needs and allows to power a small amount of specialized libraries (like [MobX](https://github.com/mobxjs/mobx)). 
+That's my naive attempt to move the topic of function decorators from the dead point. I know, it's discussed many times but IMO [current implementation of decorators](https://github.com/tc39/proposal-decorators) cover only a tiny amount of needs and allows to power a small amount of specialized libraries (like [MobX](https://github.com/mobxjs/mobx)). 
 
 Function decorators in their turn open a huge amount of scopes where they can be used. See my [comment](https://github.com/wycats/javascript-decorators/issues/4#issuecomment-526116110). We all love classess but we don't use them too often, but we do use functions a lot. I don't know any big JavaScript project where regular functions wouldn't be used. But I do know projects without classess at all or with a tiny amount of them.
 
